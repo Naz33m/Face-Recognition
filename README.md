@@ -1,5 +1,10 @@
 # Face Recognition API
 
+A tiny face registry over HTTP: send a photo with a name to remember someone, send another photo to ask who it is. Built to learn the basics behind larger real-time camera pipelines.
+
+> Privacy: face encodings are stored in a local JSON file. Only register people who agreed to it, and `alya_face_memory.json` is git-ignored.
+
+
 A Flask-based face recognition API that can register and recognize faces using deep learning.
 
 ## Features
